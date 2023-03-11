@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 1. User Stories For Questions 
 
 | User Story   |      Feature      |  Type |
@@ -24,10 +23,9 @@
 | As a user, I should be able to visualize my data in different graphs |  Data Management | Functional |
 | As a user, I should be able to group the data |    Data Management  |   Functional |
 | As a user, I should be able to modify graph properties | Data Management|    Functional |
-=======
-# User Stories
 
-**1. DATASOURCE** 
+
+**4. DATASOURCE** 
 
 | User Story | Feature | Type |
 | --- | --- | --- |
@@ -37,7 +35,7 @@
 
 ---
 
-**2. DATABASE QUERIES**
+**5. DATABASE QUERIES**
 
 | User Story | Feature | Type |  |
 | --- | --- | --- | --- |
@@ -50,7 +48,7 @@
 
 ---
 
-**3. Models**
+**6. Models**
 
 | User Story | Feature | Type |
 | --- | --- | --- |
@@ -59,4 +57,3 @@
 | As a user I should be able to add metadata to models | User Management | Functional |
 | As a user I should be able to create models without using SQL variables | User Management | Functional |
 | As a user I should be able to use my data models to quickly create reports and dashboards | User Management | Functional |
->>>>>>> Main
