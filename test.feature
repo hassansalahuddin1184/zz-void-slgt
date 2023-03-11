@@ -33,6 +33,7 @@ Feature: Questions
 
 
 Feature: Text Cards
+  
   Scenario: Add a Text Card to the Dashboard
     Given I am a user of Metabase
     And I have already connected to a data source
@@ -70,6 +71,7 @@ Feature: Text Cards
 
 
 
+
 Feature: Data Visualization
 
   Scenario: Different Graphs Options to Visualize Data
@@ -102,3 +104,11 @@ Feature: Data Visualization
     Then I should see the graph with the updated properties
 
 
+
+  Scenario: View Trend of Data
+    Given I am a user of Metabase
+    And I have already connected to a data source
+    And I have created a graph from my data
+    When I view the graph
+    Then I should be able to see the trend of my data over time
+    And I should be able to zoom in and out on the graph to view the trend at different levels of detail
