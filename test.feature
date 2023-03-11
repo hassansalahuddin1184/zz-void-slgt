@@ -10,9 +10,9 @@ Feature: Questions
     When I enter a question text
     And I build a query using the query builder
     And I select a visualization type
-    Then I should be able to create the question
+    Then I should be able to Visualize
 
-  Scenario: Create a New Question
+  Scenario: Save the Question
     Given I am a user of Metabase
     And I have already connected to a data source
     And I have created a Question
