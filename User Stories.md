@@ -25,8 +25,6 @@
 | As a user, I should be able to modify graph properties | Data Management|    Functional |
 
 
-# User Stories
-
 **4. Question**
 
 | User Story | Feature | Type |
@@ -53,3 +51,18 @@
 | --- | --- | --- |
 | As a user I should be able to login | User Management | Functional |
 | As a user I should see a prompt for invalid login | User Management | Functional |
+
+**7. User Activity**
+
+| User Story | Feature | Type |
+| --- | --- | --- |
+| As a user I should be able to check activity | User Management | Functional |
+| As a user I should see logs of my recent activity | User Management | Functional |
+
+**8. Dashboard Creation**
+
+| User Story | Feature | Type |
+| --- | --- | --- |
+| As a user I should be able to create a new Dashboard | User Management | Functional |
+| As a user I should be able to write on that dashboard | User Management | Functional |
+| As a user I should be able to visualize and save that dashboard | User Management | Functional |
