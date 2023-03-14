@@ -18,8 +18,8 @@ export const config: CodeceptJS.MainConfig = {
   },
   include: {},
   gherkin: {
-    features: './features/*.feature',   // feature files location
-    steps: [   './step_definitions/login.js', './step_definitions/sql.js','./step_definitions/data.js']  // step definitions location
+    features: './features/*.feature',  // feature files location
+    steps: './step_definitions/*.js' // step definitions location
   },
   plugins: {
     screenshotOnFail: { // if true take screenshot of failed scenarios

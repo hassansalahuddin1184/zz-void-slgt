@@ -42,5 +42,4 @@ Then('I click on Variable Type button', () =>
     I.wait(1);
     I.click({xpath: '/html/body/span[2]/span/div/div/div/div[3]'})
     I.see("Number","//button [@data-testid='select-button']");
-    pause();
 });
