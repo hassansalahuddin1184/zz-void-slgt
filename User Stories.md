@@ -25,35 +25,44 @@
 | As a user, I should be able to modify graph properties | Data Management|    Functional |
 
 
-**4. DATASOURCE** 
+**4. Question**
 
 | User Story | Feature | Type |
 | --- | --- | --- |
-| As a user I should be able to connect my data source to Metabase | Data source connection | Functional |
-| As a user I should be able to import my data | Data import | Functional |
-| As a user I should be able to visualize my data | Data visualization | Functional |
+| As a user I should be able to Create a SQL question | User management | Functional |
+| As a user I should be able to save my question | User management | Functional |
+| As a user I should be able to visualize my question | Data visualization | Functional |
 
 ---
 
-**5. DATABASE QUERIES**
-
-| User Story | Feature | Type |  |
-| --- | --- | --- | --- |
-| As a user, I should be able to create custom queries and filters to extract specific data from my data source | User Management | Functional |  |
-| As a user I should be able to use a variety of query languages, such as SQL | User Management | Functional |  |
-| As a user I should be able to execute SQL queries | User Management | Functional |  |
-| As a user I should be able to use Query Builder to analyze the data | User Management | Functional |  |
-| As a user I should be able to apply filters while building a query | User Management | Functional |  |
-| As a user I should be able to visibly see the result of the query that I built using the Query Builder | User Management | Functional |  |
-
----
-
-**6. Models**
+**5. SQL Variables**
 
 | User Story | Feature | Type |
 | --- | --- | --- |
-| As a user, I should be able to create and manage data models in Metabase | User Management | Functional |
-| As a user I should be able turn model back to question | User Management | Functional |
-| As a user I should be able to add metadata to models | User Management | Functional |
-| As a user I should be able to create models without using SQL variables | User Management | Functional |
-| As a user I should be able to use my data models to quickly create reports and dashboards | User Management | Functional |
+| As a user I should be able to in SQL query | User Management | Functional |
+| As a user, I should be able to create custom variables in SQL | User Management | Functional |
+| As a user I should be able to save SQL variable | User Management | Functional |
+
+---
+
+**6. Login**
+
+| User Story | Feature | Type |
+| --- | --- | --- |
+| As a user I should be able to login | User Management | Functional |
+| As a user I should see a prompt for invalid login | User Management | Functional |
+
+**7. User Activity**
+
+| User Story | Feature | Type |
+| --- | --- | --- |
+| As a user I should be able to check activity | User Management | Functional |
+| As a user I should see logs of my recent activity | User Management | Functional |
+
+**8. Dashboard Creation**
+
+| User Story | Feature | Type |
+| --- | --- | --- |
+| As a user I should be able to create a new Dashboard | User Management | Functional |
+| As a user I should be able to write on that dashboard | User Management | Functional |
+| As a user I should be able to visualize and save that dashboard | User Management | Functional |
