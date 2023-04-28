@@ -23,7 +23,7 @@ describe("User API", () => {
   });
 });
 
-describe("User API", () => {
+describe("Database", () => {
   test("Fetches all available databases", async () => {
     const response = await request
       .get("api/database")
